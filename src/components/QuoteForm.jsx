@@ -139,20 +139,20 @@ const QuoteForm = () => {
                 <h2>Detalles Adicionales:</h2>
                 <h5>Hay 3 tipos de traslados y servicios:</h5>
                 <p>
-                  1.BRONCE: Sólo Traslado, los clinetes, cargan y descargan el
-                  material
+                  1.BRONCE: Sólo Traslado, los clientes cargan y descargan el
+                  material.
                 </p>
                 <p>
-                  2.PLATA: El Chófer ayuda a los clinetes a cargan y descargan
-                  el material
+                  2.PLATA: El Chófer ayuda a los clientes a cargan y descargan
+                  el material.
                 </p>
                 <p>
                   3.ORO: Servicio completo por parte del chófer con un
-                  ayudante(peoneta)
+                  ayudante(peoneta).
                 </p>
                 <h3>Nota importante:</h3>
                 <p>
-                  Si hay materiales con peso superior a 50 kg , la carga o descarga tiene que ser entre 3 personas mínimo
+                  Si hay materiales con peso súperior a 50 kg , la carga o descarga tiene que ser entre 3 personas mínimo
                 </p>
                 <Form.Control
                   as="textarea"
