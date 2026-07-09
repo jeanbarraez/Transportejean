@@ -143,11 +143,12 @@ const QuoteForm = () => {
                   material.
                 </p>
                 <p>
-                  2.PLATA: El Chófer ayuda a los clientes a cargan y descargan
+                  2.PLATA: El Chófer ayuda a los clientes a cargar y descargar
                   el material.
                 </p>
                 <p>
-                  3.ORO: Servicio completo por parte del chófer con un
+                  3.ORO: El Chófer realiza el servicio completo con un
+
                   ayudante(peoneta).
                 </p>
                 <h3>Nota importante:</h3>
