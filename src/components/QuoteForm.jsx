@@ -41,10 +41,15 @@ const QuoteForm = () => {
   return (
     <section id="quote" className="py-5 bg-light">
       <Container className="py-5">
-        <h2 className="text-center display-4 fw-bold mb-5">Cotiza Tu Servicio</h2>
+        <h2 className="text-center display-4 fw-bold mb-5">
+          Cotiza Tu Servicio
+        </h2>
         <Row className="justify-content-center">
           <Col md={8} lg={6}>
-            <Form onSubmit={handleSubmit} className="bg-white p-4 rounded shadow-sm">
+            <Form
+              onSubmit={handleSubmit}
+              className="bg-white p-4 rounded shadow-sm"
+            >
               <Form.Group className="mb-3">
                 <Form.Label>Nombre Completo</Form.Label>
                 <Form.Control
@@ -91,7 +96,9 @@ const QuoteForm = () => {
                 <Form.Control
                   type="text"
                   value={quoteData.destination}
-                  onChange={(e) => updateQuoteData("destination", e.target.value)}
+                  onChange={(e) =>
+                    updateQuoteData("destination", e.target.value)
+                  }
                   placeholder="Dirección de destino"
                   required
                 />
@@ -101,14 +108,20 @@ const QuoteForm = () => {
                 <Form.Label>Tipo de Servicio</Form.Label>
                 <Form.Select
                   value={quoteData.serviceType}
-                  onChange={(e) => updateQuoteData("serviceType", e.target.value)}
+                  onChange={(e) =>
+                    updateQuoteData("serviceType", e.target.value)
+                  }
                   required
                 >
                   <option value="">Selecciona un servicio</option>
-                  <option value="Mudanza Residencial">Mudanza Residencial</option>
+                  <option value="Mudanza Residencial">
+                    Mudanza Residencial
+                  </option>
                   <option value="Flete de Carga">Flete de Carga</option>
                   <option value="Mudanza de Oficina">Mudanza de Oficina</option>
-                  <option value="Servicio Interurbano">Servicio Interurbano</option>
+                  <option value="Servicio Interurbano">
+                    Servicio Interurbano
+                  </option>
                 </Form.Select>
               </Form.Group>
 
@@ -123,7 +136,24 @@ const QuoteForm = () => {
               </Form.Group>
 
               <Form.Group className="mb-4">
-                <Form.Label>Detalles Adicionales y si requiere ayudante(peoneta)</Form.Label>
+                <h2>Detalles Adicionales:</h2>
+                <h5>Hay 3 tipos de traslados y servicios:</h5>
+                <p>
+                  1.BRONCE: Sólo Traslado, los clinetes, cargan y descargan el
+                  material
+                </p>
+                <p>
+                  2.PLATA: El Chófer ayuda a los clinetes a cargan y descargan
+                  el material
+                </p>
+                <p>
+                  3.ORO: Servicio completo por parte del chófer con un
+                  ayudante(peoneta)
+                </p>
+                <h3>Nota importante:</h3>
+                <p>
+                  Si hay materiales con peso superior a 50 kg , la carga o descarga tiene que ser entre 3 personas mínimo
+                </p>
                 <Form.Control
                   as="textarea"
                   rows={3}
