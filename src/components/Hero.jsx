@@ -3,7 +3,7 @@ import { FaWhatsapp, FaTruck, FaBox, FaShieldAlt } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-primary text-white py-5">
+    <section id="home" className=" text-white py-5">
       <Container className="py-5">
         <Row className="align-items-center">
           <Col md={6} className="text-center text-md-start mb-5 mb-md-0">

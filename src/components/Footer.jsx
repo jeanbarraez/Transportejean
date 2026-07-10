@@ -3,7 +3,7 @@ import { FaWhatsapp, FaEnvelope, FaInstagram, FaTruck } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-dark text-white py-5">
+    <footer id="contact" className="text-white py-5">
       <Container className="py-4">
         <Row className="g-4">
           <Col md={4}>
